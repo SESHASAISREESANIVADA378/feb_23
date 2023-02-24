@@ -1,0 +1,21 @@
+/*2. Print n1 to n2 odd numbers except 3rd number in the range. 
+   Read n1 and n2 from the user.
+Example1: 
+  n1=10,  n2=20, then output would be:
+  11  13  17  19	
+Explanation: 15 is skipped because it is 3rd number in the range 
+  as per the question*/
+  
+  
+  
+#include<stdio.h>
+int main()
+  {
+  	int i,n1,n2,c=0,d=0;
+  	scanf("%d%d",&n1,&n2);
+  	for(i=n1;i<=n2;i++)
+  	{
+  		if(i%2!=0)
+  		printf("%d\t",i);
+	  }
+}
